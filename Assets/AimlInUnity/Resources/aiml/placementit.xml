@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>
+	       HOW IS THE PLACEMENT IN BVM
+	    </pattern>
+	    <template>
+	        BVM has a record of best Placement all over Gujarat.
+	        Around 35+companies visit BVM every year for placement.
+	    </template>
+	</category>
+	<category>
+	    <pattern>
+	       HOW MANY COMPANIES VISIT BVM
+	    </pattern>
+	    <template>
+	        More than 35+companies including MNCs like TCS</template>
+	</category>
+	
+	<category>
+	<pattern>WHO IS PLACEMENT COORDINATOR</pattern>
+	<template>
+        Mr.Mehul patel
+	</template>
+    </category>
+	
+		<category>
+	    <pattern>
+	      WHICH IS MOST VISITED COMPANY
+	    </pattern>
+	    <template>
+	       
+	        Every year more than 20 students placed in  <set name="topic">TCS</set>,good to know that BVM is premier institute for TCS.  
+	    </template>
+	</category>
+	<category>
+	    <pattern>
+	        HOW MANY STUDENTS PLACED IN TCS
+	    </pattern>
+	    <template>
+	        In last 5 years more than 380 students got offer 
+	        in TCS in which more than 10 students got offer for 7 LPA from all departments.
+	    </template>
+	</category>
+	<category>
+	    <pattern>
+	        HOW MUCH PACKAGE OFFERED IN $TCS
+	    </pattern>
+	    <template>
+	        TCS generally offer around 3.36 LPA for ninja profile and 7 LPA for Digital
+	    </template>
+	</category>
+	
+		
+	<topic name="TCS">
+	   	<category>
+	    <pattern>
+	       IS THERE ANY BOND
+	    </pattern>
+	    <template>
+	        TCS has 1 year service agreement.
+	    </template>
+	</category>
+	</topic>
+
+	
+</aiml>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+	<pattern>HI</pattern>
+	<template>
+		<random>
+			<li>hello, how may i help you</li>
+			<li>hello, how are you</li>
+			<li>hi there..</li>
+			<li>hi , how you doing?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<template>sorry , can you repete that again</template>
+</category>
+
+
+	<category>
+		<pattern>WHAT IS BVM</pattern>
+		<template>Birla Vishvakarma Mahavidyalaya Engineering College (BVM) is a grant-aided engineering institution located in the educational town of Vallabh Vidyanagar, Gujarat, India.</template>
+	</category>
+
+	<category>
+		<pattern>WHERE IS BVM</pattern>
+		<template>THE engineering institution located in the educational town of Vallabh Vidyanagar, Gujarat, India.</template>
+	</category>
+
+	<category>
+		<pattern>HOW MANY BRANCHES IS IN BVM</pattern>
+		<template>there are mainly 6 branches in bvm</template>
+	</category>
+
+	<category>
+		<that>there are mainly 6 branches in bvm</that>
+		<pattern>CAN YOU LIST THE BRANCHES</pattern>
+		<template>
+			yeah! sure, the branches are it, cp, civil, ec, mechanical, electrical and  production. 
+		</template>
+	</category>
+
+	<category>
+		<pattern>CAN YOU LIST THE BRANCHES</pattern>
+		<template>
+			yeah! sure, the branches are it, cp, civil, ec, mechanical, electrical and  production. 
+		</template>
+	</category>
+
+	
+
+
+<category>
+		<pattern>CAN YOU GIVE ME NAME OF * </pattern>
+		<template>
+			<think><set name="findname"><star/></set></think>
+			<condition name="findname" value="principal">dr. indrajit patel</condition>
+			<condition name="findname" value="hod of it">dr. keyur bhrambhat</condition>
+			<condition name="findname" value="hod of ec">dr. xyz</condition>
+		</template>
+</category>
+
+<category>
+	<pattern>GIVE ME NAME OF * </pattern>
+	<template>
+	    <srai>CAN YOU GIVE ME NAME OF <star/></srai>
+	</template>
+</category>
+
+
+<category>
+		<pattern>SORRY</pattern>
+		<template>there is no need to applogize</template>
+</category>
+
+
+
+<category>
+	<pattern>HOW MANY SEATS * DEPARTMENT HAVE</pattern>
+	<template>
+	    <think><set name="department"><star/></set></think>
+	    
+	   
+	    <condition name="department" value="information technology"><think><set name="department">it</set></think></condition>
+	    <condition name="department" value="electrical and communication"><think><set name="department">ec</set></think></condition>
+	   
+	   
+	    
+	    
+	    <condition name="department" value="it">there are 60 seats in it department</condition>
+	    <condition name="department" value="civil">there are 120 seats in civil department</condition>
+	    <condition name="department" value="Ec">there are 60 seats in ec department</condition>
+	    <condition name="department" value="mechanical">there are 120 seats in mechanical department, 30 in SFI and 90 in government</condition>
+	    <condition name="department" value="computer">there are 60 seats in computer department</condition>
+	    <condition name="department" value="production">there are total 60 seats in production department ,30 in SFI and 30 in government</condition>
+	    <condition name="department" value="electrical">there are 60 seats in electrical department</condition>
+	    <condition name="department" value="electronics">there are 75 seats in electronics department</condition>
+	    
+	</template>
+</category>
+
+
+
+
+<category>
+	<pattern>HOW MANY SEATS IN * DEPARTMENT</pattern>
+	<template>
+	    <srai>HOW MANY SEATS <star/> DEPARTMENT HAVE</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* DEPARTMENT SEATS</pattern>
+	<template>
+	    <srai>HOW MANY SEATS <star/> DEPARTMENT HAVE</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW MANY * DEPARTMENT SEATS</pattern>
+	<template>
+	    <srai>HOW MANY SEATS <star/> DEPARTMENT HAVE</srai>
+	</template>
+</category>
+
+
+
+<category>
+	<pattern>HOW MANY SEATS AVAILABLE IN MANAGEMENT QUOTA</pattern>
+	<template>
+	    there are 3 seats available in management quota
+	</template>
+</category>
+
+<category>
+	<pattern>HOW MANY SEATS AVAILABLE IN NRI QUOTA</pattern>
+	<template>
+	    there are 3 seats available in nri quota
+	</template>
+</category>
+
+<category>
+	<pattern>FROM WHICH RANK I CAN GET ADMISSION IN NRI QUOTA</pattern>
+	<template>
+	    please contact management for more information about it 
+	</template>
+</category>
+
+<category>
+	<pattern>THE LAST RANK FROM WHICH I CAN GET ADMISSION IN NRI QUOTA</pattern>
+	<template>
+	    please contact management for more information about it 
+	</template>
+</category>
+
+
+</aiml>
+    

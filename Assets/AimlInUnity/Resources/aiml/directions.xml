@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+      <pattern>WHERE IS THE LAB IT201</pattern>
+      <template>SECOND FLOOR RIGHT SIDE</template>
+  </category>
+  <category>
+      <pattern>WHERE IS THE LAB IT202</pattern>
+      <template>SECOND FLOOR LEFT SIDE NEAR GENTS TOILET</template>
+  </category>
+  <category>
+      <pattern>WHERE IS THE CENTRAL SERVER LAB</pattern>
+      <template>SECOND FLOOR LEFT SIDE</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE THE CLASS IT301</pattern>
+      <template>THIRD FLOOR RIGHT SIDE CORNER,NEAR LADIES TOILET</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE CLASS IT302</pattern>
+      <template>THIRD FLOOR LEFT SIDE LEFT CORNER</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE CLASS IT303</pattern>
+      <template>THIRD FLOOR LEFT SIDE RIGHT CORNER</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE LAB 304</pattern>
+      <template>THIRD FLOOR LEFT SIDE NEAR FACULTY'S CABIN</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE LAB 305</pattern>
+      <template>THIRD FLOOR LRFT SIDE NEAR HOD'S CABIN </template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE OFFICE OF HOD</pattern>
+      <template>THIRD FLOOR STRAIGHT</template>
+  </category>
+  <category>
+      <pattern>WHERE IS THE HOD CABIN</pattern>
+      <template>THIRD FLOOR STRAIGHT</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE CENTRAL ASSESSMENT HALL </pattern>
+      <template>THIRD FLOOR OPPOSITE GENTS TOILET</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE TPC CELL OFFICE</pattern>
+      <template>FOURTH FLOOR RIGHT SIDE</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE FEE COUNTER FOR SFI STUDENTS</pattern>
+      <template>GROUND FLOOR RIGHT SIDE</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE PRINCIPAL'S OFFICE</pattern>
+      <template>GROUND FLOOR RIGHT SIDE THROUGH ENTRY OF BLOCK</template>
+  </category>
+   <category>
+      <pattern>WHERE IS THE FEE COUNTER FOR GIA STUDENTS</pattern>
+      <template>GROUND FLOOR LEFT SIDE</template>
+  </category>
+  <category>
+      <pattern>WHERE IS THE GIRLS ACTIVITY ROOM</pattern>
+      <template>THIRD FLOOR STRAIGHT</template>
+  </category>
+</aiml>

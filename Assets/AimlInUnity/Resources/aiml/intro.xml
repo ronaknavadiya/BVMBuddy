@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- insert your AIML categories here -->
+    <category>
+        <pattern>WHAT IS THE NAME OF *</pattern>
+        <template>
+            <think><set name="uname"><star /></set></think>
+            <condition name="uname" value="principal">Dr. Indrajit patel</condition>
+            <condition name="uname" value="hod of it">Dr.Keyur Nayankumar Brahmbhatt</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE QUALIFICATION OF *</pattern>
+        <template>
+            <think><set name="qual"><star /></set></think>
+            <condition name="qual" value="Dr Indrajit patel">Dr. Indrajit patel completes its bachelor in civil engineering with distinction from S P University.He completes his masters in Structural engineering with distinction from S P University.He Complete his Ph.D in Structural engineering from SVNIT,Surat.</condition>
+            <condition name="qual" value="Dr Keyur Brahmbhatt">Dr.Keyur Nayankumar Brahmbhatt completes its bachelor in Information technology.He completes his masters in computer engineering.He Complete his Ph.D in computer engineering.</condition>
+            <condition name="qual" value="Dr Nilesh Prajapati">Dr.Nilesh B. Prajapati completes its bachelor in Information technology.He completes his masters in computer engineering.He Complete his Ph.D in computer engineering.</condition>
+            <condition name="qual" value="Dr Zankhana shah">Dr.Zankhana H. shah completes its bachelor in computer engineering.He completes his masters in computer engineering.He Complete his Ph.D Information technology engineering.</condition>
+            <condition name="qual" value="Prof Krupali shah">Prof.Krupali H. shah completes its bachelor in IT engineering.He completes his masters in computer engineering.</condition>
+            <condition name="qual" value="Dr Vatsal shah">Dr.Vatsal H. shah completes its bachelor in computer engineering.He completes his masters in computer engineering.He Complete his Ph.D computer sciencea and engineering.</condition>
+            <condition name="qual" value="Prof Kanubhai Patel">Prof.Kanubhai G. Patel completes its bachelor in It engineering.He completes his masters in computer science and engineering.</condition>
+            <condition name="qual" value="Prof Bijal Dalwadi">Prof.Bijal N. Dalwadi completes its bachelor in I.T engineering.She completes his masters in I.T engineering.</condition>
+            <condition name="qual" value="Prof chintan mahant">Prof chintan M. mahant complted his bachelor  in IT from saurashtra university.he completed his master in CS from gujarat technology university.he pursuing his phd in computer and it.</condition>
+            <condition name="qual" value="Prof vishal polara">Prof vishal A. polara completed his bachelor  in IT from Vishwakarma Govt. Engg. College, Ghandhinagar, Gujarat.he completed his master in CS from Parul Institute of Engg.</condition>
+            <condition name="qual" value="prof priyank bhojak">prof priyank N. bhojak completed his bachelor's in IT from ganpat university.he completed his master in web technology from gujarat university.</condition>
+            <condition name="qual" value="prof Dharmesh Patel">prof Dharmesh G. Patel completed his bachelor's in IT from Sardar pate Univarsity.he Completed his master in IT from parul university.</condition>
+            <condition name="qual" value="prof prachi shah">prof prachi K. shah complets her bachelor's in IT from SVIT university.she completed her master's in IT from CSPIT charusat,changa</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE QUALIFICATION OF *</pattern>
+        <template>
+            <think><set name="qual"><star /></set></think>
+            <condition name="qual" value="Indrajit sir">Dr. Indrajit patel completes its bachelor in civil engineering with distinction from S P University.He completes his masters in Structural engineering with distinction from S P University.He Complete his Ph.D in Structural engineering from SVNIT,Surat.</condition>
+            <condition name="qual" value="Keyur sir">Dr.Keyur Nayankumar Brahmbhatt completes its bachelor in Information technology.He completes his masters in computer engineering.He Complete his Ph.D in computer engineering.</condition>
+            <condition name="qual" value="Nilesh sir">Dr.Nilesh B. Prajapati completes its bachelor in Information technology.He completes his masters in computer engineering.He Complete his Ph.D in computer engineering.</condition>
+            <condition name="qual" value="Zankhana mam">Dr.Zankhana H. shah completes its bachelor in computer engineering.He completes his masters in computer engineering.He Complete his Ph.D Information technology engineering.</condition>
+            <condition name="qual" value="Krupali mam">Prof.Krupali H. shah completes its bachelor in IT engineering.He completes his masters in computer engineering.</condition>
+            <condition name="qual" value="vatsal sir">Dr.Vatsal H. shah completes its bachelor in computer engineering.He completes his masters in computer engineering.He Complete his Ph.D computer sciencea and engineering.</condition>
+            <condition name="qual" value="Kanubhai sir">Prof.Kanubhai G. Patel completes its bachelor in It engineering.He completes his masters in computer science and engineering.</condition>
+            <condition name="qual" value="Bijal mam">Prof.Bijal N. Dalwadi completes its bachelor in I.T engineering.She completes his masters in I.T engineering.</condition>
+            <condition name="qual" value="chintan sir">Prof chintan M. mahant complted his bachelor  in IT from saurashtra university.he completed his master in CS from gujarat technology university.he pursuing his phd in computer and it.</condition>
+            <condition name="qual" value="vishal sir">Prof vishal A. polara completed his bachelor  in IT from Vishwakarma Govt. Engg. College, Ghandhinagar, Gujarat.he completed his master in CS from Parul Institute of Engg.</condition>
+            <condition name="qual" value="priyank sir">prof priyank N. bhojak completed his bachelor's in IT from ganpat university.he completed his master in web technology from gujarat university.</condition>
+            <condition name="qual" value="Dharmesh sir">prof Dharmesh G. Patel completed his bachelor's in IT from Sardar pate Univarsity.he Completed his master in IT from parul university.</condition>        
+            <condition name="qual" value="prachi mam">prof prachi K. shah complets her bachelor's in IT from SVIT university.she completed her master's in IT from CSPIT charusat,changa</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE ACHIEVEMENT OF *</pattern>
+        <template>
+            <think><set name="achieve"><star /></set></think>
+            <condition name="achieve" value="Dr Indrajit patel">He is awarded 11 time in national/international level.He published  13 national and 40 international paper on various topics.He also published 4 books.</condition>
+            <condition name="achieve" value="Dr Keyur Brahmbhatt">He published  3 national and 12 international paper on various topics.</condition>
+            <condition name="achieve" value="Dr Nilesh Prajapati">He published 18 international paper on various topics.he is awarded for valuable contibution and performance in academic activities in 2010-2011 by bvm.</condition>
+            <condition name="achieve" value="Dr Zankhana shah">She published 10 national and 25 international paper on various topics.She is awarded for academic excellence award in scholastic category in year of 2016-2017.</condition>
+            <condition name="achieve" value="Prof Krupali shah">She published 03 national and 04 international paper on various topics.</condition>
+            <condition name="achieve" value="Dr Vatsal shah">He published 2 national and 31 international paper on various topics.he is awarded for NPTEL disipline STAR award from swayam.he is also rewarded gaurav purushkar from cvm.He also published on book on load balancing by process migration in distributed OS.</condition>
+            <condition name="achieve" value="Prof Kanubhai Patel">He published 1 national and 30 international paper on various topics.he published 3 book on data structure,object oriented programming,data structure and programming.</condition>
+            <condition name="achieve" value="Prof Bijal Dalwadi">She published 07 international paper on various topics.</condition>
+            <condition name="achieve" value="Prof chintan mahant">he published 09 journal paper and 01 national level paper on various topics.</condition>
+            <condition name="achieve" value="Prof vishal polara">he published 07 journal paper and 03 national level paper on various topics.he also published two on â€œEffect of Node Density and Transmission Range on ZRP and second one is on Visual Basic for Application.</condition>
+            <condition name="achieve" value="prof priyank bhojak">he published 09 journal national and international paper on various topic related to web development</condition>
+            <condition name="achieve" value="prof dharmesh patel">he publiches 03 internaional level paper on various topic.</condition>
+            <condition name="achieve" value="prof prachi shah">she published 02 international paper on various topics.</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE ACHIEVEMENT OF *</pattern>
+        <template>
+            <think><set name="achieve"><star /></set></think>
+            <condition name="achieve" value="Indrajit sir">He is awarded 11 time in national/international level.He published  13 national and 40 international paper on various topics.He also published 4 books.</condition>
+            <condition name="achieve" value="Keyur sir">He published  3 national and 12 international paper on various topics.</condition>
+            <condition name="achieve" value="Nilesh sir">He published 18 international paper on various topics.he is awarded for valuable contibution and performance in academic activities in 2010-2011 by bvm.</condition>
+            <condition name="achieve" value="Zankhana mam">She published 10 national and 25 international paper on various topics.She is awarded for academic excellence award in scholastic category in year of 2016-2017.</condition>
+            <condition name="achieve" value="Krupali mam">She published 03 national and 04 international paper on various topics.</condition>
+            <condition name="achieve" value="vatsal sir">He published 2 national and 31 international paper on various topics.he is awarded for NPTEL disipline STAR award from swayam.he is also rewarded gaurav purushkar from cvm.He also published on book on load balancing by process migration in distributed OS.</condition>
+            <condition name="achieve" value="Kanubhai sir">He published 1 national and 30 international paper on various topics.he published 3 book on data structure,object oriented programming,data structure and programming.</condition>
+            <condition name="achieve" value="Bijal mam">She published 07 international paper on various topics.</condition>
+            <condition name="achieve" value="chintan sir">he published 09 journal paper and 01 national level paper on various topics.</condition>
+            <condition name="achieve" value="vishal sir">he published 07 journal paper and 03 national level paper on various topics.he also published two on â€œEffect of Node Density and Transmission Range on ZRP and second one is on Visual Basic for Application.</condition>
+            <condition name="achieve" value="priyank sir">he published 09 journal national and international paper on various topic related to web development</condition>
+            <condition name="achieve" value="dharmesh sir">he published 03 internaional level paper on various topic.</condition>
+            <condition name="achieve" value="prachi mam">she published 02 international paper on various topics.</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW MANY YEAR OF EXPERIENCE * HAVE</pattern>
+        <template>
+            <think><set name="exp"><star /></set></think>
+            <condition name="exp" value="Dr Indrajit patel"></condition>
+            <condition name="exp" value="Dr Keyur Brahmbhatt">10 years</condition>
+            <condition name="exp" value="Dr Nilesh Prajapati">12 years and 4 months</condition>
+            <condition name="exp" value="Dr Zankhana shah">18 years</condition>
+            <condition name="exp" value="Prof Krupali shah">13 years and 6 months</condition>
+            <condition name="exp" value="Dr Vatsal shah">10 years</condition>
+            <condition name="exp" value="Prof Kanubhai Patel">8 years</condition>
+            <condition name="exp" value="Prof Bijal Dalwadi">4.5 years</condition>
+            <condition name="exp" value="Prof chintan mahant">9 years</condition>
+            <condition name="exp" value="prof vishal polara">7 years</condition>
+            <condition name="exp" value="prof priyank bhojak">6 years</condition>
+            <condition name="exp" value="prof dharmesh patel">7 years</condition>
+            <condition name="exp" value="prof prachi shah">7 years</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW MANY YEAR OF EXPERIENCE * HAVE</pattern>
+        <template>
+            <think><set name="exp"><star /></set></think>
+            <condition name="exp" value="Indrajit sir"></condition>
+            <condition name="exp" value="Keyur sir">10 years</condition>
+            <condition name="exp" value="Nilesh sir">12 years and 4 months</condition>
+            <condition name="exp" value="Zankhana mam">18 years</condition>
+            <condition name="exp" value="Krupali mam">13 years and 6 months</condition>
+            <condition name="exp" value="Vatsal sir">10 years</condition>
+            <condition name="exp" value="Kanubhai sir">8 years</condition>
+            <condition name="exp" value="Bijal mam">4.5 years</condition>
+            <condition name="exp" value="chintan sir">9 years</condition>
+            <condition name="exp" value="vishal sir">7 years</condition>
+            <condition name="exp" value="priyank sir">6 years</condition>
+            <condition name="exp" value="dharmesh sir">7 years</condition>
+            <condition name="exp" value="prachi mam">7 years</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO IS THE PRINCIPAL OF BVM</pattern>
+        <template>
+            Dr Indrajit patel
+        </template>
+    </category>
+    <category>
+        <pattern>WHO IS PRINCIPAL OF BVM</pattern>
+        <template>
+            Dr Indrajit patel
+        </template>
+    </category>
+    <category>
+        <pattern>WHO IS THE HOD OF IT.</pattern>
+        <template>
+            Dr Keyur Brahmbhatt
+        </template>
+    </category>
+    <category>
+        <pattern>WHO IS THE HOD OF IT DEPARTMENT</pattern>
+        <template>
+            Dr Keyur Brahmbhatt
+        </template>
+    </category>
+    <category>
+        <pattern>WHO IS THE HOD OF INFORMATION TECHNOLOGY DEPARTMENT</pattern>
+        <template>
+            Dr Keyur Brahmbhatt
+        </template>
+    </category>
+</aiml>
